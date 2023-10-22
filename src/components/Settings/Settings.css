@@ -1,0 +1,78 @@
+.settings {
+	background-color: #e8e8e8;
+	border: #555 4px solid;
+	border-radius: 5px;
+	padding: 30px;
+	margin: 10px 0;
+	overflow: auto;
+}
+
+.settings h1 {
+	font-size: 30px;
+	margin-bottom: 15px;
+}
+
+.settings h2 {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.settings .settings-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.settings input, .settings select {
+	width: 100%;
+	height: 30px;
+	padding: 5px 5px;
+	margin: 5px 0px;
+}
+
+.settings input[type='checkbox'] {
+	width: 30px;
+}
+
+.settings .sub-settings {
+	/*border: #555 3px solid;
+	border-radius: 5px;*/
+	/* padding: 15px; */
+	margin: 15px 0;
+}
+
+.settings .sub-settings-block {
+	border: #555 1px solid;
+	border-radius: 5px;
+	margin: 30px 0;
+	padding: 15px;
+}
+
+.settings .color-settings {
+	/*border: #555 1px solid;
+	border-radius: 5px;*/
+	/*padding: 15px;*/
+	margin: 15px 0;
+}
+
+.settings .color-value-block {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.settings .color-value {
+	display: flex;
+	align-items:center;
+	justify-content: space-between;
+	width: 30%;
+}
+
+.settings .new-delete {
+	display: flex;
+	justify-content: space-between;
+}
+
+.settings .new-delete .btn {
+	width: 45%;
+}

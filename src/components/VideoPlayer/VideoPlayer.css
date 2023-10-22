@@ -1,0 +1,58 @@
+.video-container .video-display {
+    position: relative;
+    display: block;
+    background-color: #000;
+}
+
+.video-container .video-player {
+    width: 100%;
+    display: block;
+}
+
+.video-container .tps-div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video-container .controls {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    background: #222;
+}
+
+.video-container .controls .progress-bar {
+    width: 100%;
+    height: 10px;
+    background: black;
+}
+
+.video-container .controls .progress-bar .progress {
+    width: 30%;
+    height: 100%;
+    background-color: red;
+}
+
+.video-container .controls .button-bar {
+    display: flex;
+    flex-wrap: none;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.video-container .controls .button-bar .btn {
+    background: none;
+    outline: 0;
+    cursor: pointer;
+    /*color: #fff;*/
+    font-size: 20px;
+    min-width: 70px;
+}
+
+/*.video-container .play-pause {
+    color: #fff;
+    font-size: 28px;
+}*/

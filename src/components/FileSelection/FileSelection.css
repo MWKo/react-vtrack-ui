@@ -1,0 +1,27 @@
+.file-selection-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.file-selection-menu-element {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    padding: 10px;
+}
+
+.file-selection-menu-element div, .file-selection-menu-element button {
+    width: 50%;
+    padding: 10px;
+}
+
+.file-selection input[type="file"] {
+    display: none;
+}
+
+.file-selection label {
+    width: 100%;
+    /*height: 100%;*/
+}
